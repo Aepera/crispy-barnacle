@@ -1,0 +1,15 @@
+.homeContainer {
+  margin:0 auto;
+}
+
+.tvCards {
+  display: grid;
+  gap: 1rem;
+  row-gap: 3em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px 0;
+}
+
+@media (min-width: 900px) {
+  .tvCards { grid-template-columns: repeat(4, 1fr);gap: 2rem;}
+}

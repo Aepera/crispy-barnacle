@@ -1,0 +1,42 @@
+.detailsPage {
+  margin:0 auto;
+}
+
+
+.detailsContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 10px;
+}
+
+.summary {
+  font-size: 12px;
+}
+
+.infoContainer {
+  padding: 0 20px;
+}
+
+.genre {
+  margin: 0;
+}
+
+.goBackButton {
+  background-color: transparent;
+  margin: 40px 0;
+}
+
+@media (min-width: 600px) {
+  .detailsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 40px;
+  }
+
+  .infoContainer {
+    padding: 0 40px;
+    max-width: 500px;
+  }
+}
+

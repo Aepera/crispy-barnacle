@@ -1,0 +1,26 @@
+.tvShow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.showTitle {
+  color: white;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.showRating {
+  color: yellow;
+  font-size: 12px;
+  margin: 0;
+}
+
+@media (max-width: 460px) {
+  .tvShow {
+    max-width: 180px;
+  }
+  
+}
